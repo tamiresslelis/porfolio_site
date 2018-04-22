@@ -9,14 +9,14 @@ A tarefa era passar o mesmo, digo a mesma estrutura para HTML e CSS, o resultado
 https://tamiresslelis.github.io/portfolio_site/
 
 
-### Prerequisites
+### Requisitos
 
 Apenas é necessário ter um browser na sua máquina.
 
-## Authors
+## Autor
 
 Tamires Lelis
 
-## License
+## Licença
 
 Este projeto usa a licença MIT License - veja em [LICENSE.md](LICENSE.md) para mais detalhes.
