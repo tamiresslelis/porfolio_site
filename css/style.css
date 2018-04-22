@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo img {
+  margin-top: 10px;
+  max-width: 100px;
+  height: 100px;
+}
+
+hr {
+  color: #7d97ad;
+  border: 2px solid;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h3 {
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-size: 30px;
+  color: #7d97ad;
+  padding-left: 25px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #2d3c49;
+  display: flex;
+  justify-content: center;
+
+}
+
+.titulo-imagem {
+  justify-content: center;
+  text-transform: uppercase;
+}
