@@ -50,3 +50,10 @@ a {
   justify-content: center;
   text-transform: uppercase;
 }
+
+@media screen and (max-width:986px){
+   .mobile{
+     display: flex;
+     justify-content: center;
+   }
+}

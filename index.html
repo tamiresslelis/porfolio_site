@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto 1</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -9,45 +10,55 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
+  <main class="container">
+    <header class="row">
       <div class="col-md-6">
         <div class="logo">
-          <img src="imagens/logo.svg" alt="logo"/>
+          <img class="img-responsive" src="imagens/logo.svg" alt="logo"/>
         </div>
       </div>
       <div class="col-md-6">
         <h1>Jane Doette</h1>
         <h3>Front-end Ninja</h3>
       </div>
-    </div>
+    </header>
     <hr />
-    <div class="row">
+    <section class="row">
       <div class="col-md-12">
-        <img src="imagens/rosella-1600_large_2x.jpg" alt="passáro">
+        <figure>
+          <img src="imagens/rosella-1600_large_2x.jpg" alt="passáro">
+        </figure>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-12">
+        <h2>Featured Work</h2>
       </div>
     </div>
     <div class="row">
-      <h2>Featured Work</h2>
-    </div>
-    <div class="row">
       <div class="col-md-4">
-        <img src="imagens/1.jpg" alt="1"/>
+        <figure class="mobile">
+          <img class="img-responsive" src="imagens/1.jpg" alt="1"/>
+        </figure>
         <h3 class="titulo-imagem">Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
       <div class="col-md-4">
-        <img src="imagens/1.jpg" alt="2"/>
+        <figure class="mobile">
+          <img class="img-responsive" src="imagens/1.jpg" alt="2"/>
+        </figure>
         <h3 class="titulo-imagem">Sunflower</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
       <div class="col-md-4">
-        <img src="imagens/1.jpg" alt="3"/>
+        <figure class="mobile">
+            <img class="img-responsive" src="imagens/1.jpg" alt="3"/>
+        </figure>
         <h3 class="titulo-imagem">Bokeh</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
     </div>
-  </div>
+  </main>
 
 </body>
 </html>
